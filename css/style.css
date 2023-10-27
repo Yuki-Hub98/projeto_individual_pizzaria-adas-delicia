@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Menus */
+
+.content{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    padding-left: 5rem;
+    background-color: #1f1e1f;
+}
+
+.content .list-menu{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.content .list-menu li a{
+    padding: 3rem 1rem 2rem 1rem;
+    color: aliceblue;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+
+}
+
+.content .list-menu li a:hover{
+    background-color: #3333;
+    border-bottom: 4px solid #ffc506;
+    color: #ffc506;
+}
+
+/* firs-section*/
+
+.first-section{
+    width: 100vw;
+    background-image: linear-gradient(rgba(29,29,29,0.8), rgba(29,29,29,0.8)),url(https://i0.wp.com/www.sinhoresosasco.com.br/storage/2020/07/PizzaSite.jpg?fit=710%2C470&ssl=1);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+
+}
+
+.first-section .first-conteudo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1{
+    color: #ffc506;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.first-section p{
+    color: rgb(177, 177, 177);
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+}
+
+.btn-first-section button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffc506;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    transition: all 400ms ease-in;
+    
+
+}
+
+.btn-first-section button a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn-first-section button a :hover {
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn-first-section button:hover{
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
+}
+
+.btn-first-section{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* Cardapio */
+
+.cardapio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 12, 0.8);
+    padding-top: 16rem;
+}
+
+
+.cardapio table caption strong {
+    font-size: 3rem;
+    color: #e6e6e6;
+}
+
+.cardapio  .head-carapio th{
+    width: 180px;
+    height: 60px;
+    border: 1px solid #ffc506;
+    color: #e6e6e6;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+/*
+.cardapio .body-carapio tr td img{
+    width: 200px;
+    height: 60px;
+}*/
+
+.cardapio .body-carapio tr td{
+    border: 1px solid #ffc506;
+    font-size: 1.8rem;
+    color: #e6e6e6;
+       
+}
+
+/* Cardapio footer*/
+.cardapio-footer tr td strong{
+    align-items: center;
+}
+.cardapio-footer tr td strong{
+    padding-left: 8.5rem;
+    font-size: 1.8rem;
+    color: #e6e6e6;
+
+}
+
+/* Cardastre-se */
+
+.cadastro-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 12, 0.8);
+}
+
+.cadastro-section h3{
+    margin-top: 1.8rem;
+    font-size: 3rem;
+    color: #e6e6e6;
+
+}
+
+.cadastro-section .form-cadastro-section input{
+   width: 300px;
+   height: 30px;
+   margin-top: 1rem;
+   border-radius: 5px;
+}
+
+.cadastro-section .form-cadastro-section label{
+    font-size: 1.5rem;
+    color: #e6e6e6;
+}
+
+.bnt-cadastro-section button {
+    width: 95px;
+    height: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffc506;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    margin-top: 1rem;
+    transition: all 400ms ease-in;
+    
+}
+
+.bnt-cadastro-section button:hover{
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    
+    color: #ffc506;
+}
+
+.bnt-cadastro-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer{
+    background-color: rgb(12, 12, 12, 0.8);
+}
+
+.footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .footer nav ul li a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 1.5rem;
+ }
+.footer p{
+    color: #e6e6e6;
+    font-size: 1.5rem;
+}

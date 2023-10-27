@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Restaurante Ada's Delícias - Descubra uma jornada de sabor única em nosso restaurante." />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <title>Pizzaria Ada's Delícias - Promoção Clone de Pizza por apenas R$59,90</title>
+  </head>
+
+  <body>
+    <header class="content">
+        <nav role="navigation" aria-label="Navegação principal">
+          <ul class="list-menu">
+            <li><a href="#inicio" aria-label="Página Inicial">Início</a></li>
+            <li><a href="#cardapio" aria-label="Cardápio da Pizzaria">Cardápio</a></li>
+            <li><a href="#cadastro" aria-label="Cadastro de Clientes">Cadastro</a></li>
+            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#"><i class="bi bi-cart2"></i></a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+        <section class="first-section">
+          <div class="first-conteudo-section">
+            <h1>Pizzaria Ada's Delícias</h1>
+            <p>
+              Em nossa pizzaria, cada pizza é uma experiência única e deliciosa. Com
+              ingredientes frescos, massa artesanal e molhos exclusivos, transformamos
+              cada mordida em um momento de felicidade. <br />
+              De clássicas a ousadas, nossa paixão pela pizza é evidente em cada
+              sabor. Ada's Delícias é onde a alegria encontra o paladar.
+            </p>
+            <div class="btn-first-section">
+              <button class="btn-fisrt-section-cardapio"> <a href="#cardapio">Cardápio</a> </button>
+              <button class="btn-fisrt-section-cardastro"><a href="#cadastro">Cadastro</a> </button> 
+            </div>
+        </div>
+    </section>
+      <section class="cardapio" id="cardapio">
+        <div class="section-table-area">
+          <table class="cardapio-table" cellpadding="5">
+            <caption>
+              <strong>Cardápio</strong>
+            </caption>
+            <thead class="head-carapio">
+              <tr>
+                  <th scope="col">Pizza</th>
+                  <th scope="col">Sabor</th>
+                  <th scope="col">Descrição</th>
+                  <th scope="col">Preço</th>
+              </tr>
+            </thead>
+            <tbody class="body-carapio">
+              <tr>
+                <td>
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROtjweiVPZtlO4aD0VCICTgo7Y0CD26j8ZH-1y2ufGYCqU6FxE3fV1futOhNYSeZTl0ic&usqp=CAU"
+                    alt="imagem de uma pizza de marguerita"
+                    title="Esta é uma imagem de pizza de marguerita"
+                  />
+                </td>
+                <td><strong>Margherita</strong></td>
+                <td>Molho de tomate, muçarela, manjericão fresco.</td>
+                <td>R$ 29,00</td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV8I2QwZkrIkCyb2FTjWzzumqWq_QEuTBnJK-MGomTguKfBW4oEIv_TjJdvCECQijF-zw&usqp=CAU"
+                    alt="imagem de uma pizza de pepperoni"
+                    title="Esta é uma imagem de pizza de pepperoni"
+                  />
+                </td>
+                <td><strong>Pepperoni</strong></td>
+                <td>Molho de tomate, muçarela, pepperoni picante.</td>
+                <td>R$ 25,00</td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7o7MEdF0qQdUGdj3Vb7tZzVnkwinsiqqPud4na10chgS0eOqx26vjLt5s1INp7bk9wvs&usqp=CAU"
+                    alt="imagem de uma pizza vegetariana"
+                    title="Esta é uma imagem de pizza de vegetariana"
+                  />
+                </td>
+                <td><strong>Vegetariana</strong></td>
+                <td>Molho de tomate, muçarela, pimentão, cebola, cogumelos.</td>
+                <td>R$ 27,00</td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6T-cqkgQN6pCQABhcsuiR5Fq2JgXRtjEFeJy7HrW3G2CbWkIPKH9jY8GTwy3qYd1F0yQ&usqp=CAU"
+                    alt="imagem de uma pizza de frango com catupiry"
+                    title="Esta é uma imagem de pizza de frango com catupiry"
+                  />
+                </td>
+                <td><strong>Frango com Catupiry</strong></td>
+                <td>
+                  Molho de tomate, muçarela, provolone, gorgonzola, parmesão.
+                </td>
+                <td>R$ 30,00</td>
+              </tr>
+            </tbody>
+            <tfoot class="cardapio-footer">
+              <tr>
+                <td colspan="4">
+                  <strong
+                    >Descubra o sabor na Pizzaria Ada's Delícias, onde cada pizza
+                    é uma experiência única.</strong
+                  >
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+      <section class="cadastro-section" id="cadastro">
+        <h3>Cadastre-se</h3>
+        <form>
+          <div class="form-cadastro-section">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" required />
+          </div>
+          <div class="form-cadastro-section" >
+            <label for="email">Email: </label>
+            <input type="email" id="email" required/>
+          </div>
+          <div class="form-cadastro-section" >
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" required/>
+          </div>
+          <div class="bnt-cadastro-section">
+            <button class="btn-section-cardastro" type="submit" title="Clique para enviar o formulário">
+              Cadastrar
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+        <nav role="navigation">
+          <ul>
+            <li><a href="#inicio" aria-label="Navegação Principal">Início</a></li>
+          </ul>
+          <p>&copy; 2023 Ada's Delícias - Todos os direitos reservados.</p>
+        </nav>
+      </footer>
+  </body>
+</html>
